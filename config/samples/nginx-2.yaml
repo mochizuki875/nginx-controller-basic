@@ -1,0 +1,6 @@
+apiVersion: nginx.my.domain/v1
+kind: Nginx
+metadata:
+  name: nginx-2
+spec:
+  replicas: 3
